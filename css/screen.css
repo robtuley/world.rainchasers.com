@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'PTSansRegular';
+  src: url('../font/PTS55F-webfont.eot');
+  src: local('☺'), url('../font/PTS55F-webfont.woff') format('woff'), url('../font/PTS55F-webfont.ttf') format('truetype'), url('../font/PTS55F-webfont.svg#webfontmBFaK3EM') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PTSansBold';
+  src: url('../font/PTS75F-webfont.eot');
+  src: local('☺'), url('../font/PTS75F-webfont.woff') format('woff'), url('../font/PTS75F-webfont.ttf') format('truetype'), url('../font/PTS75F-webfont.svg#webfontpfl2y6jq') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  font-family: PTSansRegular, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  background: white;
+}
+
+body {
+  margin: 2em auto;
+  width: 980px;
+}
+
+pre {
+  border: 1px solid gray;
+  padding: 0.5em;
+  margin-left: 2em;
+  background-color: #F0F0F0;
+}
+
+nav ul {
+  width: 160px;
+  float: left;
+  padding: 80px 0;
+  list-style: none;
+  text-align: right;
+}
+
+nav li {
+  padding: 0 0.5em 0 0.8em;
+}
+
+nav ul li:first-child {
+  margin-bottom: 30px;
+}
+
+a:link, a:visited {
+  color: #333399; /* Dark blue */
+  text-decoration: none;
+}
+
+a:active, a:focus, a:hover {
+  text-decoration: underline;
+}
+
+article {
+  width: 779px;
+  float: left;
+  border-left: 1px solid gray;
+  padding: 10px;
+  padding-top:0;
+  vertical-align: top;
+}
+
+h1,h2,h3,h4,h5 {
+  font-weight: normal;
+  border-bottom: 1px solid gray;
+}
+
+h1 {
+  background: url('../asset/logo.png') center right no-repeat;
+  padding-top: 10px;
+  min-height:50px;
+}
