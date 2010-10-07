@@ -1,3 +1,29 @@
+<?php
+/**
+ * nextsw.im front controller.
+ */
+error_reporting(E_ALL);
+ini_set('display_errors',1);
+$src = isset($_GET['src']) ? $_GET['src'] : null;
+if ($src) {
+    // for src to be valid, it must only consist of a-z or dash, and it must
+    // relate to a file on the filesystem.
+    $path = null;
+    if (preg_match('/^[a-z-]+$/',$src)) {
+        $path = __DIR__.'/src/'.$src.'.md';
+    }
+    if ($path && file_exists($path)) {
+        require_once __DIR__.'/lib/markdown.php';
+        $content = Markdown(file_get_contents($path));
+    } else {
+        // 404, file does not exist
+        header($_SERVER['SERVER_PROTOCOL'].' 404 Not Found');
+        $content = file_get_contents(__DIR__.'/src/404.html');
+    }
+} else {
+    $content = file_get_contents(__DIR__.'/src/seasons.html');
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,13 +59,7 @@
 </nav>
 
 <article>
-<h1>Whitewater Kayaking Seasons</h1>
-
-<p>nextsw.im helps you find your next kayaking adventure with concise summaries of
-   world kayaking destinations and seasons.</p>
-
-<!-- @todo season table -->
-
+<?php echo $content; ?>
 </article>
 
 </body>
