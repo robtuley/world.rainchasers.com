@@ -15,19 +15,22 @@ if ($src) {
     if ($path && file_exists($path)) {
         require_once __DIR__.'/lib/markdown.php';
         $content = Markdown(file_get_contents($path));
+        $title = 'Kayaking in '.implode(' ',array_map('ucfirst',explode('-',$src)));
     } else {
         // 404, file does not exist
         header($_SERVER['SERVER_PROTOCOL'].' 404 Not Found');
         $content = file_get_contents(__DIR__.'/src/404.html');
+        $title = 'Page Not Found';
     }
 } else {
     $content = file_get_contents(__DIR__.'/src/seasons.html');
+    $title = 'Kayaking Seasons';
 }
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Find Your Next Swim</title>
+  <title><?php echo htmlentities($title,ENT_COMPAT,'UTF-8'); ?></title>
   <link rel=stylesheet type=text/css href=css/screen.css>
 </head>
 
