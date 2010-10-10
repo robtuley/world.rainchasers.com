@@ -7,18 +7,18 @@ Excellent exploratory paddling available. The river character is siphon-y: rapid
   * [Tom Hugh's take on Peru](http://www.bluedome.co.uk/WaterSports/wateperu.html)
   * [Rob Tuley trip notes from 2003](http://openknot.com/kayak/peru/)
 
-How to get there
-----------------
-
-Plenty of flights are available to the capital Lima, although the best paddling is based around Cusco/Arequipa: local airlines like Lan Chile and Lan Peru fly regularly from Lima to Cusco or Arequipa, or it can be done with kayak on an overnight bus.
-
 When to go
 ----------
 
 The season is virtually all year round, and it depends how scared you want to be as to when you go. The rains come in Oct/Nov and last to about March, and the water gets gradually lower and lower from then on during the year. We went in Sept, when the water was almost at its lowest, but if we were to go back I think we'd be tempted to go a bit earlier.
 
-Getting Around
---------------
+How to get there
+----------------
+
+Plenty of flights are available to the capital Lima, although the best paddling is based around Cusco/Arequipa: local airlines like Lan Chile and Lan Peru fly regularly from Lima to Cusco or Arequipa, or it can be done with kayak on an overnight bus.
+
+Transport
+---------
 
 If you don't have private transport travelling can be fairly slow but I was surprised at how easy it was to get the kayaks around with you. We managed to get kayaks on buses, taxis and even a collectivo (which is basically a small minivan that acts as a shared taxi) so it is practical (but slow) to rely on public transport. There are plenty of raft comapnies in both Cusco and Arequipa who can also help arrange transport, or you can exchange safety boating for food and transport to the river.
 

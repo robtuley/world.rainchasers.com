@@ -1,10 +1,10 @@
-Kayaking in Kyrgyzstan
+Kyrgyzstan (Tien-Shan)
 ======================
 
-A logistically challenging country that harbours some good paddling adventures where half the battle is actually getting to the river.
+Good variety of paddling with reasonable road access in most areas. Rivers range from steep low volume single-day creeks to medium-volume short multi-day runs.
 
   * [BUKE Expedition 2005](http://kayakstan.net)
-  * [Russian Kayaking Guide](http://www.kayaking.su/en/rivers/tienshan/) (available in English)
+  * [Russian Kayaking Guide](http://www.kayaking.su/en/rivers/tienshan/)
   * Vladimir Gavrilov has written a good rafting orientated guidebook (in English) to the rivers of central Asia, entitled 'Rivers of an Unknown Land'. This includes some larger volume runs in Kyrgzstan (e.g. Naryn).
 
 When to go
@@ -17,8 +17,8 @@ How to get there
 
 It is possible to fly into either Bishkek (Kyrgyz capital) or Almaty (in Kazakstan, but very close to the border), and BA fly direct to both from London Heathrow. A cheaper option is to fly via Moscow, with Aeroflot being the major carrier on this route.
 
-Travelling around
------------------
+Transport
+---------
 
 We didn't experiment with local public transport, but I think it would be a real struggle. Couple that with the fact that most rivers are in very sparsely populated areas and I think it would be virtually impossible. Most of the Russians who paddle this region drive a car down themselves. If you're flying in, it's probably best to hire a vehicle and a driver. For a small group, a 4x4 (usually a Lada Niva) would be ideal.
 

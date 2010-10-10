@@ -39,25 +39,28 @@ if ($src) {
 <nav>
 <ul>
   <li><a href="./">Season Chart</a></li>
-  <li><a href=bc>British Columbia</a></li>
+
+  <li><a href=altai title="Southern Siberia">Altai</a></li>
+  <li><a href=bc title="West Canada">British Columbia</a></li>
   <li><a href=california>California</a></li>
-  <li><a href=cevennes>Cevennes</a></li>
+  <li><a href=cevennes title="Southern France">Cevennes</a></li>
   <li><a href=chile>Chile</a></li>
-  <li><a href=french-alps>French Alps</a></li>
+  <li><a href=french-alps title="Southern France">French Alps</a></li>
   <li><a href=greece>Greece</a></li>
   <li><a href=iran>Iran</a></li>
   <li><a href=kyrgyzstan>Kyrgyzstan</a></li>
-  <li><a href=ladakh>Ladakh</a></li>
+  <li><a href=ladakh title="Northern India">Ladakh</a></li>
   <li><a href=morocco>Morocco</a></li>
   <li><a href=nepal>Nepal</a></li>
   <li><a href=norway>Norway</a></li>
   <li><a href=peru>Peru</a></li>
   <li><a href=portugal>Portugal</a></li>
-  <li><a href=pyrenees>Pyrenees</a></li>
+  <li><a href=putorana title="Northern Siberia">Putorana</a></li>
+  <li><a href=pyrenees title="Spainish/French Border">Pyrenees</a></li>
+  <li><a href=sayan title=Siberia>Sayan</a></li>
   <li><a href=scotland>Scotland</a></li>
-  <li><a href=siberia>Siberia</a></li>
   <li><a href=slovenia>Slovenia</a></li>
-  <li><a href=val-sesia>Val Sesia</a></li>
+  <li><a href=val-sesia title="Northern Italy">Val Sesia</a></li>
 </ul>
 </nav>
 
