@@ -43,10 +43,10 @@ if ($src) {
   <li><a href=altai title="Southern Siberia">Altai</a></li>
   <li><a href=bc title="West Canada">British Columbia</a></li>
   <li><a href=california>California</a></li>
-  <li><a href=cevennes title="Southern France">Cevennes</a></li>
+  <li><a href=cevennes title="Southern France">Cévennes</a></li>
   <li><a href=chile>Chile</a></li>
-  <li><a href=french-alps title="Southern France">French Alps</a></li>
   <li><a href=greece>Greece</a></li>
+  <li><a href=haut-alps title="Southern France">Haut Alps</a></li>
   <li><a href=iran>Iran</a></li>
   <li><a href=kyrgyzstan>Kyrgyzstan</a></li>
   <li><a href=ladakh title="Northern India">Ladakh</a></li>

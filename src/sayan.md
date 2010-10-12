@@ -1,5 +1,5 @@
-Kayaking in Sayan (Siberia)
-===========================
+Sayan (Siberia)
+===============
 
 The Sayan mountains extend almost 1000 km along the Mongolian border, from Altai in the west to Baikal Lake in the east. The region is distinctly separated in two areas -- Western and Eastern Sayan -- of which Eastern Sayan is of most interest to the whitewater paddler (easier logistics and steeper rivers). Expedition style multi-day paddling with difficult logistics and in general trek-ins and flat paddle-in/out required.
 

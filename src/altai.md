@@ -1,5 +1,5 @@
-Kayaking in Altai (Southern Siberia)
-====================================
+Altai (Southern Siberia)
+========================
 
 The Altai is the highest mountain range in Siberia, located in the south where Russia, Kazakhstan, China and Mongolia all come together. Plenty of good runs, most being multidays but by Siberian standards the area has a good road infrastructure so they are not too hard to reach.
 
