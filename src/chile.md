@@ -3,7 +3,9 @@ Chile
 
 Excellent variety of paddling in an area with good travel infrastructure; a popular kayaking destination.
 
-  * Guidebook "Whitewater Chile" by Tyler Curtis, Mariann Saether & Ben May (ISBN 978-1-896980-45-4)
+  * [Guidebook "Whitewater Chile" by Tyler Curtis, Mariann Saether & Ben May](http://www.amazon.co.uk/gp/product/1896980457?ie=UTF8&tag=nextswim-21&linkCode=as2&camp=1634&creative=6738&creativeASIN=1896980457) (ISBN 978-1-896980-45-4)
+  * [riversofchile.com](http://riversofchile.com)
+  * [Wiki Chile Whitewater Guide](http://www.exchile.com/guide/index.php/Rivers_Guide)
 
 When to go
 ----------

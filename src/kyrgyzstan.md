@@ -5,7 +5,7 @@ Good variety of paddling with reasonable road access in most areas. Rivers range
 
   * [BUKE Expedition 2005](http://kayakstan.net)
   * [Russian Kayaking Guide](http://www.kayaking.su/en/rivers/tienshan/)
-  * Vladimir Gavrilov has written a good rafting orientated guidebook (in English) to the rivers of central Asia, entitled 'Rivers of an Unknown Land'. This includes some larger volume runs in Kyrgzstan (e.g. Naryn).
+  * Vladimir Gavrilov has written a good rafting orientated guidebook (in English) to the rivers of central Asia, titled [Rivers of an Unknown Land](http://www.amazon.co.uk/gp/product/0967757037?ie=UTF8&tag=nextswim-21&linkCode=as2&camp=1634&creative=6738&creativeASIN=0967757037) ISBN 978-0967757032. This includes some larger volume runs in Kyrgzstan (e.g. Naryn).
 
 When to go
 ----------

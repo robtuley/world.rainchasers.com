@@ -45,6 +45,8 @@ if ($src) {
   <li><a href=california>California</a></li>
   <li><a href=cevennes title="Southern France">Cévennes</a></li>
   <li><a href=chile>Chile</a></li>
+  <li><a href=corsica>Corsica</a></li>
+  <li><a href=galicia>Galicia</a></li>
   <li><a href=greece>Greece</a></li>
   <li><a href=haut-alps title="Southern France">Haut Alps</a></li>
   <li><a href=iran>Iran</a></li>

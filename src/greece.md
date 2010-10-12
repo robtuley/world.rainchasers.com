@@ -1,9 +1,12 @@
 Greece
 ======
 
-Spectacular commiting gorge paddling of medium difficulty in amongst a lot of driving for the shuttles.
+Spectacular commiting gorge paddling of medium difficulty with a lot of driving for the shuttles.
 
-  * TODO: add greek website links & guidebook
+  * [Team Adara](http://teamadara.com) ([cached notes](./asset/greece/team-adara.pdf))
+  * Guidebook "Greco" by Franz Bettinger and John Longden, ISBN 3-00-004943-6 (available from [Canotier](http://canotier.com))
+  * Guidebook DKV Auslandführer Südosteuropa by Karl Schoderer (in German)
+ 
 
 When to go
 ----------

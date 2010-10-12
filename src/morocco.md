@@ -3,7 +3,10 @@ Morocco (High Atlas)
 
 Good variety of easy to moderate difficulty runs from single to multi-day in the High Atlas mountain range. Road infrastructure is reasonable, and flights from Europe are relatively cheap. 
 
-  * todo: add guidebook isbn & pdf, online resources
+  * Guidebook "Marokko" by Franz Riegel & Marlen Riegel, ISBN 3-925660-11-9, old and in German. This is difficult to get hold of, but you can download a [digital scan of some of the relevant pages](./asset/morocco/marokko-zu-fuss-fahrrad-boot.pdf) or purchase from [Lehmanns](http://www.lehmanns.de/shop/nocategory/213947-9783925660115-marokko).
+  * [ICCC trip notes from 2009](http://www.union.ic.ac.uk/rcc/canoe/mediawiki/Morocco_River_Guides) ([cached](./asset/morocco/iccc-2009.pdf))
+  * [The Poly Trip Notes](http://www.thepoly.co.uk/tripreports/morocco.html) ([cached](./asset/morocco/poly-2004.pdf))
+  * [Mark Rainsley notes from 2007](http://www.ukriversguidebook.co.uk/forum/viewtopic.php?f=3&t=21109) ([cached](./asset/morocco/mark-rainsley-2007.pdf))
 
 When to go
 ----------
@@ -13,7 +16,7 @@ Rivers are snow and rain fed and the best chance of good levels is April-May.
 How to get there
 ----------------
 
-Plenty of cheap flights are available into Marrakesh which is worth exploring during your trip. Although there are a few local rivers, the bulk of the Atlas mountain range is about a day's drive.
+Plenty of cheap flights are available into Marrakesh which is worth exploring during your trip. Although there are a few local rivers, the bulk of the Atlas mountain range is about a day's drive. An alternative if you were aiming for the more northern runs would be to fly directly to Fez instead.
 
 Transport
 ---------
