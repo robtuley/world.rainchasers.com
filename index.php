@@ -2,8 +2,7 @@
 /**
  * nextsw.im front controller.
  */
-error_reporting(E_ALL);
-ini_set('display_errors',1);
+header('Content-type: text/html; charset=utf-8');
 $src = isset($_GET['src']) ? $_GET['src'] : null;
 if ($src) {
     // for src to be valid, it must only consist of a-z or dash, and it must
@@ -31,6 +30,7 @@ if ($src) {
 <html>
 <head>
   <title><?php echo htmlentities($title,ENT_COMPAT,'UTF-8'); ?></title>
+  <meta charset=utf-8>
   <link rel=stylesheet media=screen,projection href=css/screen.css>
   <script src=js/jquery.js></script>
   <!--[if IE]><script src=js/html5.js></script><![endif]-->
