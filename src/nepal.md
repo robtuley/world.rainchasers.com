@@ -3,7 +3,7 @@ Nepal
 
 Wide range of single- and multi-day trips from easy to difficult with relatively easy logistics. Something to suit every paddler!
 
-  * "Whitewater Nepal" by Peter Knowles ISBN 0-9519413-3-X
+  * ["Whitewater Nepal" by Peter Knowles](http://www.amazon.co.uk/gp/product/095194133X?ie=UTF8&tag=nextswim-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=095194133X) ISBN 0-9519413-3-X
 
 When to go
 ----------
