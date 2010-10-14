@@ -3,5 +3,51 @@
 <p>nextsw.im helps you find your next kayaking adventure with concise summaries of
    world kayaking destinations and seasons.</p>
 
-<!-- @todo season table -->
-<p>TODO: season table</p>
+<script>
+$(function(){
+  var months = {
+    '1':'Jan',
+    '2':'Feb',
+    '3':'Mar',
+    '4':'Apr',
+    '5':'May',
+    '6':'Jun',
+    '7':'July',
+    '8':'Aug',
+    '9':'Sept',
+    '10':'Oct',
+    '11':'Nov',
+    '12':'Dec'
+  };
+
+  // create table with headings
+  var table = $('<table></table>');
+  var heading = $('<tr><th>Place</th></tr>');
+  for (var i in months) {
+    heading.append($('<th></th>').text(months[i]));
+  }
+  table.append(heading);
+
+  // for each place, add a row
+  $('[data-season]').each(function(){
+    var $link = $(this).clone();
+    var seasons = $link.attr('data-season').split(',');
+    var title = $link.text();
+    if ($link.attr('title')) title = title+' ('+$link.attr('title')+')';
+    $link.text(title).removeAttr('data-season').removeAttr('title');
+    var row = $('<tr></tr>').append($('<th></th>').append($link));
+    for (var i in months) {
+      var find = seasons.indexOf(i);
+      if (find>=0) {
+          row.append($('<td></td>').addClass('in-season').text('x'));
+      } else {
+          row.append($('<td></td>'));
+      }
+      
+    }
+    table.append(row);
+  });
+
+  $('article').append(table);
+});
+</script>

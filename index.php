@@ -31,7 +31,9 @@ if ($src) {
 <html>
 <head>
   <title><?php echo htmlentities($title,ENT_COMPAT,'UTF-8'); ?></title>
-  <link rel=stylesheet type=text/css href=css/screen.css>
+  <link rel=stylesheet media=screen,projection href=css/screen.css>
+  <script src=js/jquery.js></script>
+  <!--[if IE]><script src=js/html5.js></script><![endif]-->
 </head>
 
 <body>
@@ -40,29 +42,30 @@ if ($src) {
 <ul>
   <li><a href="./">Season Chart</a></li>
 
-  <li><a href=altai title="Southern Siberia">Altai</a></li>
-  <li><a href=bc title="West Canada">British Columbia</a></li>
-  <li><a href=california>California</a></li>
-  <li><a href=cevennes title="Southern France">Cévennes</a></li>
-  <li><a href=chile>Chile</a></li>
-  <li><a href=corsica>Corsica</a></li>
-  <li><a href=galicia>Galicia</a></li>
-  <li><a href=greece>Greece</a></li>
-  <li><a href=haut-alps title="Southern France">Haut Alps</a></li>
-  <li><a href=iran>Iran</a></li>
-  <li><a href=kyrgyzstan>Kyrgyzstan</a></li>
-  <li><a href=ladakh title="Northern India">Ladakh</a></li>
-  <li><a href=morocco>Morocco</a></li>
-  <li><a href=nepal>Nepal</a></li>
-  <li><a href=norway>Norway</a></li>
-  <li><a href=peru>Peru</a></li>
-  <li><a href=portugal>Portugal</a></li>
-  <li><a href=putorana title="Northern Siberia">Putorana</a></li>
-  <li><a href=pyrenees title="Spainish/French Border">Pyrenees</a></li>
-  <li><a href=sayan title=Siberia>Sayan</a></li>
-  <li><a href=scotland>Scotland</a></li>
-  <li><a href=slovenia>Slovenia</a></li>
-  <li><a href=val-sesia title="Northern Italy">Val Sesia</a></li>
+  <li><a href=altai title="Southern Siberia" data-season=7,8>Altai</a></li>
+  <!--<li><a href=bc title="West Canada">British Columbia</a></li>-->
+  <!--<li><a href=california>California</a></li>-->
+  <li><a href=cevennes title="Southern France" data-season=4,5,10,11>Cévennes</a></li>
+  <li><a href=chile data-season=1,2,3,12>Chile</a></li>
+  <!--<li><a href=corsica>Corsica</a></li>-->
+  <!--<li><a href=costa-rica>Costa Rica</a></li>-->
+  <!--<li><a href=galicia>Galicia</a></li>-->
+  <li><a href=greece data-season=4,5>Greece</a></li>
+  <!--<li><a href=haut-alps title="Southern France">Haut Alps</a></li>-->
+  <!--<li><a href=iran>Iran</a></li>-->
+  <li><a href=kyrgyzstan data-season=6,7,8,9>Kyrgyzstan</a></li>
+  <!--<li><a href=ladakh title="Northern India">Ladakh</a></li>-->
+  <li><a href=morocco data-season=4,5>Morocco</a></li>
+  <!--<li><a href=nepal>Nepal</a></li>-->
+  <!--<li><a href=norway>Norway</a></li>-->
+  <li><a href=peru data-season=2,3,4,5,6,7,8>Peru</a></li>
+  <li><a href=portugal data-season=1,2,3,4,11,12>Portugal</a></li>
+  <li><a href=putorana title="Northern Siberia" data-season=7>Putorana</a></li>
+  <!--<li><a href=pyrenees title="Spainish/French Border">Pyrenees</a></li>-->
+  <li><a href=sayan title=Siberia data-season=7,8>Sayan</a></li>
+  <!--<li><a href=scotland>Scotland</a></li>-->
+  <!--<li><a href=slovenia>Slovenia</a></li>-->
+  <li><a href=val-sesia title="Northern Italy" data-season=4,5>Val Sesia</a></li>
 </ul>
 </nav>
 

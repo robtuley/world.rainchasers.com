@@ -82,3 +82,38 @@ h1 {
   padding-top: 10px;
   min-height:50px;
 }
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+table td, table th {
+  margin:0;
+  padding: 0.4em 10px;
+  text-align: left;
+}
+
+table th {
+  font-weight: normal;
+  background-color: #dedede;
+}
+
+table tr:first-child {
+  border-top: 1px solid #dedede;
+}
+
+table td {
+  border-left: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  vertical-align: top;
+}
+
+table td:first-child {
+  border-left: none;
+}
+
+table td.in-season {
+  text-indent:-9999px;
+  background-color: #9999ff;
+}
