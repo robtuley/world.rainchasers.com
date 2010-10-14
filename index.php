@@ -56,7 +56,7 @@ if ($src) {
   <li><a href=kyrgyzstan data-season=6,7,8,9>Kyrgyzstan</a></li>
   <!--<li><a href=ladakh title="Northern India">Ladakh</a></li>-->
   <li><a href=morocco data-season=4,5>Morocco</a></li>
-  <!--<li><a href=nepal>Nepal</a></li>-->
+  <li><a href=nepal data-season=3,4,10,11,12>Nepal</a></li>
   <!--<li><a href=norway>Norway</a></li>-->
   <li><a href=peru data-season=2,3,4,5,6,7,8>Peru</a></li>
   <li><a href=portugal data-season=1,2,3,4,11,12>Portugal</a></li>
