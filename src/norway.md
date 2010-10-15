@@ -3,7 +3,7 @@ Norway
 
 Superb medium volume creeking day-runs of moderate to very hard difficultly. Lots of waterfalls, and most runs have easy road access.
 
-  * "Norway: The Whitewater Guide" by Jens Klatt and Olaf Obsommer, ISBN 3-9809315-4-4. An excellent up-to-date guide in both English and German. 
+  * [Norway: The Whitewater Guide](http://www.amazon.co.uk/gp/product/3980931544?ie=UTF8&tag=nextswim-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=3980931544) by Jens Klatt and Olaf Obsommer, ISBN 3-9809315-4-4. An excellent up-to-date guide in both English and German. 
 
 When to go
 ----------
