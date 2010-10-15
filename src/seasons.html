@@ -37,13 +37,11 @@ $(function(){
     $link.text(title).removeAttr('data-season').removeAttr('title');
     var row = $('<tr></tr>').append($('<th></th>').append($link));
     for (var i in months) {
-      var find = seasons.indexOf(i);
-      if (find>=0) {
-          row.append($('<td></td>').addClass('in-season').text('x'));
+      if ($.inArray(i,seasons)>=0) {
+        row.append($('<td></td>').addClass('in-season').text('x'));
       } else {
-          row.append($('<td></td>'));
+        row.append($('<td></td>'));
       }
-      
     }
     table.append(row);
   });
