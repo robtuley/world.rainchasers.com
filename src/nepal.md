@@ -13,7 +13,7 @@ The monsoon runs from June to Sept: From Aug-Sept the levels will be very high a
 How to get there
 ----------------
 
-Fly into Katmandu, often via Delhi. Oct-Nov is the peak tourist season so if that's when intend to visit book your flights well in advance. 
+Fly into Katmandu, often via Delhi. Oct-Nov is the peak tourist season so if that's when you intend to visit book your flights well in advance. 
 
 Transport
 ---------

@@ -26,12 +26,12 @@ Public transport might be possible but very slow. You really need your own vehic
 Language
 --------
 
-Outside the main cities English is unlikely to be understood, instead French is widely spoken alonside Arabic. If you hire a local driver it is essential to have at least a rudimentary understanding of French. 
+Outside the main cities English is unlikely to be understood, instead French is widely spoken alongside Arabic. If you hire a local driver it is essential to have at least a rudimentary understanding of French. 
 
 Weather
 -------
 
-At easter the weather should be sunny but not too hot, and you'll probably get at least a few downpours.
+At easter the weather should be sunny but not too hot, and you'll probably get a few downpours.
 
 Accommodation
 -------------
@@ -41,7 +41,7 @@ Wild camping is easy anywhere, and the main paddling areas are well populated wi
 Money
 -----
 
-In larger towns there are ATMs that will accept Visa, although like all these sort of countries expect some bank network problems preventing you from reliably getting at your cash (make sure you keep a cash buffer with you!).
+In larger towns there are ATMs that will accept Visa, although expect some bank network problems preventing you from reliably getting at your cash (make sure you keep a cash buffer with you!).
 
 
 

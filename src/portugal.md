@@ -20,6 +20,6 @@ Most of the best paddling is in Northern Portugal, so it is convenient to fly in
 Transport
 ---------
 
-Public transport would be impossible, so you will need your own vehicle. Almost all runs have road access (although road quality is generally poor), and shuttles are short enough to hitch/cycle. Navigation is tricky (almost no road signs, and lots of little roads) so a sat-nav is recommended and as big-scale maps as you can find.
+Public transport would be impossible, so you will need your own vehicle. Almost all runs have road access (although typical road quality is poor), and shuttles are short enough to hitch/cycle. Navigation is tricky (almost no road signs, and lots of little roads) so a sat-nav is recommended and as big-scale maps as you can find.
 
 

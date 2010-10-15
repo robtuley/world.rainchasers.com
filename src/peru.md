@@ -1,7 +1,7 @@
 Peru
 ====
 
-Excellent exploratory paddling available. The river character is siphon-y: rapids are usually formed by boulders falling into the river or being washed downstream by floods. As a result the rivers change in character very quickly, usually from year to year and it is advisable to seek up-to-date local knowledge where possible from the various rafting outfits.
+Excellent exploratory paddling. The river character is siphon-y: rapids are usually formed by boulders falling into the river or being washed downstream by floods. As a result the rivers change character frequently, usually from year to year and it is advisable to seek up-to-date local knowledge where possible from the various rafting outfits.
 
   * [Peru Whitewater](http://www.peruwhitewater.com) by Kurt Casey is the bible of Peruvian paddling.
   * [Tom Hugh's take on Peru](http://www.bluedome.co.uk/WaterSports/wateperu.html)
@@ -35,7 +35,7 @@ Hostels are everywhere, and very cheap. Most of the interesting runs involve eit
 Money
 -----
 
-Flights are fairly expensive from the UK, but living costs in Peru will be cheap. The peruvian currency is the Sol, but if you're going to take any cash or travellers cheques get them all in dollars, the 'unofficial' currency. Can just take a visa card and find a cash machine in most main centres.
+Living costs in Peru will be cheap. The peruvian currency is the Sol, but if you're going to take any cash or travellers cheques get them all in dollars, the 'unofficial' currency. Can just take a visa card and find a cash machine in most main centres.
 
 
 
