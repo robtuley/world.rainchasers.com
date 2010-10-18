@@ -32,6 +32,7 @@ if ($src) {
   <title><?php echo htmlentities($title,ENT_COMPAT,'UTF-8'); ?></title>
   <meta charset=utf-8>
   <link rel=stylesheet media=screen,projection href=css/screen.css>
+  <link rel=stylesheet media=print href=css/print.css>
   <script src=js/jquery.js></script>
   <!--[if IE]><script src=js/html5.js></script><![endif]-->
 </head>
