@@ -44,15 +44,16 @@ if ($src) {
 <ul>
   <li class=first><a href=./>Season Chart</a></li>
 
-  <!--<li>Alaska</li>-->
+  <li><span data-season=6,7>Alaska</span></li>
   <li><a href=altai title=Siberia data-season=7,8>Altai</a></li>
-  <!--<li>Argentina</li>-->
+  <li><span data-season=8>Argentina</span></li>
   <!--<li>Bolivia</li>-->
   <li><span title=Canada data-season=6,7,8>British Columbia</span></li>
   <!--<li>California</li>-->
   <li><a href=cevennes title=France data-season=4,5,10,11>Cévennes</a></li>
   <li><a href=chile data-season=1,2,3,12>Chile</a></li>
   <li><span data-season=4>Corsica</span></li>
+  <li><span title=Turkey data-season=5,6,7,8>Coruh</span></li>
   <!--<li>Costa Rica</li>-->
   <!--<li>Cuba</li>-->
   <!--<li>Equador</li>-->
@@ -68,7 +69,7 @@ if ($src) {
   <!--<li>Kamchatka</li>-->
   <li><a href=kyrgyzstan data-season=6,7,8,9>Kyrgyzstan</a></li>
   <!--<li>Kurdistan</li>-->
-  <!--<li><span title=India>Ladakh</span></li>-->
+  <li><span title=India data-season=8>Ladakh</span></li>
   <!--<li>Madagascar</li>-->
   <li><span data-season=1,2,3,11,12>Mexico</span></li>
   <li><a href=morocco data-season=4,5>Morocco</a></li>
@@ -84,7 +85,6 @@ if ($src) {
   <li><a href=pyrenees title=Spain/France data-season=4,5>Pyrénées</a></li>
   <li><a href=sayan title=Siberia data-season=7,8>Sayan</a></li>
   <li><span data-season=4,5,6,7>Slovenia</span></li>
-  <!--<li>Turkey</li>-->
   <li><span data-season=1,2,3,4,5,6,7,8,9,10,11,12>Uganda</span></li>
   <li><span data-season=1,2,3,4,10,11,12>UK</span></li>
   <li><a href=val-sesia title=Italy data-season=4,5>Val Sesia</a></li>
