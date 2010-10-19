@@ -41,16 +41,17 @@ if ($src) {
 
 <nav>
 <ul>
-  <li><a href="./">Season Chart</a></li>
+  <li class=first><a href=./>Season Chart</a></li>
 
   <!--<li>Alaska</li>-->
-  <li><a href=altai title="Southern Siberia" data-season=7,8>Altai</a></li>
+  <li><a href=altai title=Siberia data-season=7,8>Altai</a></li>
+  <!--<li>Argentina</li>-->
   <!--<li>Bolivia</li>-->
-  <!--<li><span title="West Canada">British Columbia</span></li>-->
+  <li><span title=Canada data-season=6,7,8>British Columbia</span></li>
   <!--<li>California</li>-->
-  <li><a href=cevennes title="Southern France" data-season=4,5,10,11>Cévennes</a></li>
+  <li><a href=cevennes title=France data-season=4,5,10,11>Cévennes</a></li>
   <li><a href=chile data-season=1,2,3,12>Chile</a></li>
-  <!--<li>Corsica</li>-->
+  <li><span data-season=4>Corsica</span></li>
   <!--<li>Costa Rica</li>-->
   <!--<li>Cuba</li>-->
   <!--<li>Equador</li>-->
@@ -58,17 +59,17 @@ if ($src) {
   <!--<li>Georgia</li>-->
   <li><a href=greece data-season=4,5>Greece</a></li>
   <!--<li>Greenland</li>-->
-  <li><span title="Southern France" data-season=5,6,7>Haut Alps</span></li>
-  <!--<li>Iceland</li>-->
+  <li><span title=France data-season=5,6,7>Haut Alps</span></li>
+  <li><span data-season=4,5,6>Iceland</span></li>
   <li><span data-season=5,6>Iran</span></li>
   <li><a href=ireland data-season=10,11,12,1,2,3,4>Ireland</a></li>
   <!--<li>Japan</li>-->
   <!--<li>Kamchatka</li>-->
   <li><a href=kyrgyzstan data-season=6,7,8,9>Kyrgyzstan</a></li>
   <!--<li>Kurdistan</li>-->
-  <!--<li><span title="Northern India">Ladakh</span></li>-->
+  <!--<li><span title=India>Ladakh</span></li>-->
   <!--<li>Madagascar</li>-->
-  <!--<li>Mexico</li>-->
+  <li><span data-season=1,2,3,11,12>Mexico</span></li>
   <li><a href=morocco data-season=4,5>Morocco</a></li>
   <li><a href=nepal data-season=3,4,10,11,12>Nepal</a></li>
   <li><a href=new-zealand data-season=4,5,6,7,8,9,10>New Zealand</a></li>
@@ -78,14 +79,14 @@ if ($src) {
   <!--<li>Papua New Guinea</li>-->
   <li><a href=peru data-season=2,3,4,5,6,7,8>Peru</a></li>
   <li><a href=portugal data-season=1,2,3,4,11,12>Portugal</a></li>
-  <li><a href=putorana title="Northern Siberia" data-season=7>Putorana</a></li>
+  <li><a href=putorana title=Siberia data-season=7>Putorana</a></li>
   <li><a href=pyrenees title=Spain/France data-season=4,5>Pyrénées</a></li>
   <li><a href=sayan title=Siberia data-season=7,8>Sayan</a></li>
-  <li><span data-season=4,5>Slovenia</span></li>
+  <li><span data-season=4,5,6,7>Slovenia</span></li>
   <!--<li>Turkey</li>-->
-  <!--<li>Uganda</li>-->
+  <li><span data-season=1,2,3,4,5,6,7,8,9,10,11,12>Uganda</span></li>
   <li><span data-season=10,11,12,1,2,3,4>UK</span></li>
-  <li><a href=val-sesia title="Northern Italy" data-season=4,5>Val Sesia</a></li>
+  <li><a href=val-sesia title=Italy data-season=4,5>Val Sesia</a></li>
   <!--<li>Vietnam</li>-->
   <!--<li>Washington</li>-->
   <!--<li>Zambezi</li>-->

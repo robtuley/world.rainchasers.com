@@ -50,7 +50,7 @@ nav li {
   padding: 0 0.5em 0 0.8em;
 }
 
-nav ul li:first-child {
+nav ul li.first {
   margin-bottom: 30px;
 }
 
