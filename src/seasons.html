@@ -21,31 +21,59 @@ $(function(){
   };
 
   // create table with headings
-  var table = $('<table></table>');
-  var heading = $('<tr><th>Place</th></tr>');
+  var $table = $('<table></table>');
+  var $heading = $('<tr><th class=first>Place</th></tr>');
   for (var i in months) {
-    heading.append($('<th></th>').text(months[i]));
+    $heading.append($('<th></th>').text(months[i]));
   }
-  table.append(heading);
+  $table.append($('<thead></thead>').append($heading));
 
-  // for each place, add a row
+  // generate a set of rows
+  var rows = [];
   $('[data-season]').each(function(){
-    var $link = $(this).clone();
-    var seasons = $link.attr('data-season').split(',');
-    var title = $link.text();
-    if ($link.attr('title')) title = title+' ('+$link.attr('title')+')';
-    $link.text(title).removeAttr('data-season').removeAttr('title');
-    var row = $('<tr></tr>').append($('<th></th>').append($link));
+    var $el = $(this).clone();
+    var seasons = $el.attr('data-season').split(',');
+    var key = '';
+    for (var i in seasons){
+      key = key+parseInt(seasons[i]).toString(13);
+      // ^ construct base13 string to make sure can alphabetically sort
+    }
+    var title = $el.text();
+    if ($el.attr('title')) title = title+' ('+$el.attr('title')+')';
+    $el.text(title).removeAttr('data-season').removeAttr('title');
+    var r = $('<tr></tr>').append($('<th class=first></th>').append($el)).attr('data-key',key);
     for (var i in months) {
       if ($.inArray(i,seasons)>=0) {
-        row.append($('<td></td>').addClass('in-season').text('x'));
+        r.append($('<td></td>').addClass('in-season').text('x'));
       } else {
-        row.append($('<td></td>'));
+        r.append($('<td></td>'));
       }
     }
-    table.append(row);
+    rows.push(r);
   });
 
-  $('article').append(table);
+  // sort rows
+  rows.sort(function($a,$b) {
+    var a = $a.attr('data-key');
+    var b = $b.attr('data-key');
+    return (a < b) ? -1 : (a > b) ? 1 : 0;
+  });
+
+  // insert table into DOM
+  var $tbody = $('<tbody></tbody>');
+  for (var i in rows){
+    $tbody.append(rows[i]);
+  }
+  $('article').append($table.append($tbody));
+
+  // enable floating header
+  $table.floatHeader();
+
+  // highlight rows on hover, and odd rows
+  $('tr',$table).hover(
+    function(){ $(this).addClass("highlight"); },
+    function(){ $(this).removeClass("highlight");}
+  );
+  $('tr:odd',$table).addClass('odd');
 });
 </script>

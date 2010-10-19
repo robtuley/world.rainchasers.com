@@ -34,6 +34,7 @@ if ($src) {
   <link rel=stylesheet media=screen,projection href=css/screen.css>
   <link rel=stylesheet media=print href=css/print.css>
   <script src=js/jquery.js></script>
+  <script src=js/jquery.floatheader.js></script>
   <!--[if IE]><script src=js/html5.js></script><![endif]-->
 </head>
 
@@ -62,7 +63,7 @@ if ($src) {
   <li><span title=France data-season=5,6,7>Haut Alps</span></li>
   <li><span data-season=4,5,6>Iceland</span></li>
   <li><span data-season=5,6>Iran</span></li>
-  <li><a href=ireland data-season=10,11,12,1,2,3,4>Ireland</a></li>
+  <li><a href=ireland data-season=1,2,3,4,10,11,12>Ireland</a></li>
   <!--<li>Japan</li>-->
   <!--<li>Kamchatka</li>-->
   <li><a href=kyrgyzstan data-season=6,7,8,9>Kyrgyzstan</a></li>
@@ -85,7 +86,7 @@ if ($src) {
   <li><span data-season=4,5,6,7>Slovenia</span></li>
   <!--<li>Turkey</li>-->
   <li><span data-season=1,2,3,4,5,6,7,8,9,10,11,12>Uganda</span></li>
-  <li><span data-season=10,11,12,1,2,3,4>UK</span></li>
+  <li><span data-season=1,2,3,4,10,11,12>UK</span></li>
   <li><a href=val-sesia title=Italy data-season=4,5>Val Sesia</a></li>
   <!--<li>Vietnam</li>-->
   <!--<li>Washington</li>-->
