@@ -79,7 +79,7 @@ if ($src) {
   <li><a href=peru data-season=2,3,4,5,6,7,8>Peru</a></li>
   <li><a href=portugal data-season=1,2,3,4,11,12>Portugal</a></li>
   <li><a href=putorana title="Northern Siberia" data-season=7>Putorana</a></li>
-  <li><span title=Spain/France data-season=4,5>Pyrenees</span></li>
+  <li><a href=pyrenees title=Spain/France data-season=4,5>Pyrénées</a></li>
   <li><a href=sayan title=Siberia data-season=7,8>Sayan</a></li>
   <li><span data-season=4,5>Slovenia</span></li>
   <!--<li>Turkey</li>-->
