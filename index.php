@@ -61,7 +61,7 @@ if ($src) {
   <li><span title="Southern France" data-season=5,6,7>Haut Alps</span></li>
   <!--<li>Iceland</li>-->
   <li><span data-season=5,6>Iran</span></li>
-  <!--<li>Ireland</li>-->
+  <li><a href=ireland data-season=10,11,12,1,2,3,4>Ireland</a></li>
   <!--<li>Japan</li>-->
   <!--<li>Kamchatka</li>-->
   <li><a href=kyrgyzstan data-season=6,7,8,9>Kyrgyzstan</a></li>
