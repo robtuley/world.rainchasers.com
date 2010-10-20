@@ -16,12 +16,12 @@ Kayaking occurs year-round, but the main season is from Oct-April. Paddling is p
 How to get there
 ----------------
 
-Flights into Christchurch on the South Island: the area around Auckland is better known for sea rather than whitewater kayaking. Wellington is a possible option. The most popular kayak hang-out is probably Murchison on the South Island.
+Fly into Christchurch on the South Island: the area around Auckland is better known for sea rather than whitewater kayaking. Wellington is a possible option. The most popular kayak hang-out is probably Murchison on the South Island.
 
 Transport
 ---------
 
-You'll need you own vehicle, but as this is a very popular kayaking destination it may be possible to hook up with other boaters once you get there who already have a vehicle. For the remoter runs helicopters are commonly used and reasonably easy to hire: often separate groups will share to reduce the costs so it is worth asking around.
+You'll need you own vehicle, but as this is a very popular kayaking destination it may be possible to hook up with other boaters once you get there who already have one. For the remoter runs helicopters are commonly used and easy to hire: separate groups will often share to reduce the costs so it is worth asking around.
 
 Accommodation
 -------------

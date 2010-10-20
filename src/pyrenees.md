@@ -3,7 +3,7 @@ Pyrénées (Spain/France Border)
 
 Good variety of low-medium volume paddling with reliable (snow-melt) levels.
 
-  * Whitewater Pyrénées by Patrick Santal, ISBN 0-9519413-5-6
+  * [Whitewater Pyrénées](http://www.amazon.co.uk/gp/product/0951941356?ie=UTF8&tag=nextswim-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0951941356) by Patrick Santal, ISBN 0-9519413-5-6
 
 When to go
 ----------

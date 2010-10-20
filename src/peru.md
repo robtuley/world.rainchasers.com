@@ -1,7 +1,7 @@
 Peru
 ====
 
-Excellent exploratory paddling. The river character is siphon-y: rapids are usually formed by boulders falling into the river or being washed downstream by floods. As a result the rivers change character frequently, usually from year to year and it is advisable to seek up-to-date local knowledge where possible from the various rafting outfits.
+Excellent multi-day paddling. The river character is siphon-y: rapids are usually formed by boulders falling into the river or being washed downstream by floods. As a result the rivers change character frequently, usually from year to year and it is advisable to seek up-to-date local knowledge where possible from the various rafting outfits.
 
   * [Peru Whitewater](http://www.peruwhitewater.com) by Kurt Casey is the bible of Peruvian paddling.
   * [Tom Hugh's take on Peru](http://www.bluedome.co.uk/WaterSports/wateperu.html)
@@ -20,7 +20,7 @@ Plenty of flights are available to the capital Lima, although the best paddling 
 Transport
 ---------
 
-If you don't have private transport travelling can be fairly slow but I was surprised at how easy it was to get the kayaks around with you. We managed to get kayaks on buses, taxis and even a collectivo (which is basically a small minivan that acts as a shared taxi) so it is practical (but slow) to rely on public transport. There are plenty of raft comapnies in both Cusco and Arequipa who can also help arrange transport, or you can exchange safety boating for food and transport to the river.
+If you don't have private transport travelling is slow but entirely possible: buses, taxis and collectivos (shared minibus taxi) will all take kayaks. There are plenty of rafting companies in both Cusco and Arequipa who can also help arrange transport, or you can exchange safety boating for food and transport to the river.
 
 Weather
 -------
@@ -30,12 +30,12 @@ Obviously depends on what time of year you're out there, but in general pretty m
 Accommodation
 -------------
 
-Hostels are everywhere, and very cheap. Most of the interesting runs involve either multidaying or camping near the putin so you will need your camping gear with you.
+Hostels are everywhere, and very cheap. Most of the interesting runs involve either multidaying or camping near the putin so you will need camping gear.
 
 Money
 -----
 
-Living costs in Peru will be cheap. The peruvian currency is the Sol, but if you're going to take any cash or travellers cheques get them all in dollars, the 'unofficial' currency. Can just take a visa card and find a cash machine in most main centres.
+Living costs in Peru are cheap. The peruvian currency is the Sol, but if you're going to take any cash or travellers cheques get them in dollars. Can just take a visa card and find a cash machine in most main centres.
 
 
 
