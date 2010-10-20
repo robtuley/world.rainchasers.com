@@ -27,7 +27,7 @@ strong, em {
 }
 
 body {
-  margin: 1em auto;
+  margin: 10px;
   width: 980px;
 }
 
@@ -38,12 +38,20 @@ pre {
   background-color: #F0F0F0;
 }
 
-nav ul {
+nav {
   width: 160px;
-  float: left;
-  padding: 80px 0;
+  position: absolute;
+  top:10px;
+  left:10px;
+  display: block;
+}
+
+nav ul {
+  margin:0;
+  padding: 60px 0 0 0;
   list-style: none;
   text-align: right;
+  width: 100%;
 }
 
 nav li {
@@ -63,13 +71,22 @@ a:active, a:focus, a:hover {
   text-decoration: underline;
 }
 
-article {
+article, aside {
+  display: block;
   width: 779px;
-  float: left;
+  margin-left:160px;
   border-left: 1px solid gray;
   padding: 10px;
+}
+
+article {
   padding-top:0;
   vertical-align: top;
+}
+
+aside {
+  margin-top: 20px;
+  border-top: 1px solid gray;
 }
 
 h1,h2,h3,h4,h5 {
