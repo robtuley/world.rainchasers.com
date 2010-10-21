@@ -23,7 +23,7 @@ if ($src) {
         $content = Markdown(file_get_contents($path));
         $fb_title = implode(' ',array_map('ucfirst',explode('-',$src)));
         $title = 'Kayaking in '.$fb_title;
-        $fb_type = 'country';
+        $fb_type = 'state_province';
     } else {
         // 404, file does not exist
         header($_SERVER['SERVER_PROTOCOL'].' 404 Not Found');
@@ -55,7 +55,11 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <meta property=og:url content=<?php echo $escape($fb_url); ?>> 
   <meta property=og:image content=<?php echo $escape($fb_img); ?>> 
   <meta property=fb:app_id content=159877897376773> 
-  <meta property=og:site_name content=nextsw.im> 
+  <meta property=og:site_name content=nextsw.im>
+<?php if ($fb_type=='website') : ?>
+  <meta property="og:description"
+        content="Concise summaries of world kayaking destinations and seasons."/>
+<?php endif; ?>
   <link rel=stylesheet media=screen,projection href=css/screen.css>
   <link rel=stylesheet media=print href=css/print.css>
   <script src=js/jquery.js></script>
