@@ -27,9 +27,8 @@ if ($src) {
     } else {
         // 404, file does not exist
         header($_SERVER['SERVER_PROTOCOL'].' 404 Not Found');
-        $content = file_get_contents(__DIR__.'/src/404.html');
-        $title = $fb_title = 'Page Not Found';
-        $fb_type = 'website';
+        echo file_get_contents(__DIR__.'/src/404.html');
+        exit;
     }
 } else {
     $content = file_get_contents(__DIR__.'/src/seasons.html');
@@ -37,8 +36,11 @@ if ($src) {
     $fb_type = 'website';
 }
 $fb_url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-$fb_img = strlen($_SERVER['REQUEST_URI'])<=1 ? '/website' : $_SERVER['REQUEST_URI'];
-  $fb_img = '/website'; // temporary until populate fb images
+$fb_img = '/website'; // default to standard image
+if ($src) {
+  $path = __DIR__.'/fb/'.$src.'.png';
+  if (file_exists($path)) $fb_img = '/'.$src; // custom image 
+}
 $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
 ?>
 <!DOCTYPE html>
