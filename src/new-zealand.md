@@ -11,7 +11,7 @@ Boating in NZ can be anything from cruisy grade 3 up to a heli-ride into the hil
 When to go
 ----------
 
-Kayaking occurs year-round, but the main season is from Oct-April. Paddling is possible outside this season in the winter months but be prepared for the cold. 
+Kayaking occurs year-round, but the main season is from Nov-April. Paddling is possible outside this season in the winter months but be prepared for the cold. 
 
 How to get there
 ----------------
