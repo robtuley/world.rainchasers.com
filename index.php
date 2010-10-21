@@ -85,7 +85,7 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <!--<li>Bolivia</li>-->
   <!--<li>Brazil</li>-->
   <li><span title=Canada data-season=6,7,8>British Columbia</span></li>
-  <!--<li>California</li>-->
+  <li><a href=california title=USA data-season=3,4,5,6,7>California</a></li>
   <li><a href=cevennes title=France data-season=4,5,10,11>Cévennes</a></li>
   <li><a href=chile data-season=1,2,3,12>Chile</a></li>
   <!--<li>Columbia</li>-->
@@ -100,6 +100,7 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <!--<li>Greenland</li>-->
   <li><span title=France data-season=5,6,7>Haut Alps</span></li>
   <li><span data-season=4,5,6>Iceland</span></li>
+  <!--<li>Idaho</li>-->
   <li><span data-season=5,6>Iran</span></li>
   <li><a href=ireland data-season=1,2,3,4,10,11,12>Ireland</a></li>
   <li><a href=japan data-season=7,8>Japan</a></li>
@@ -121,6 +122,7 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <li><a href=portugal data-season=1,2,3,4,11,12>Portugal</a></li>
   <li><a href=putorana title=Siberia data-season=7>Putorana</a></li>
   <li><a href=pyrenees title=Spain/France data-season=4,5>Pyrénées</a></li>
+  <!--<li>Quebec</li>-->
   <li><a href=sayan title=Siberia data-season=7,8>Sayan</a></li>
   <li><span data-season=4,5,6,7>Slovenia</span></li>
   <!--<li>South Africa</li>-->
