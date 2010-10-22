@@ -23,7 +23,7 @@ You will need your own vehicle, but shuttles are short and direct and would be p
 Accommodation
 -------------
 
-Wild camping would be difficult but there are good clean official camping grounds near most areas. There are plenty of hostels/hotels in both Spainand France, or hire an apartment at one of ski resorts which because it is in the off-season can be very cheap.
+Wild camping would be difficult but there are good clean official camping grounds near most areas. There are plenty of hostels/hotels in both Spain and France, or hire an apartment at one of ski resorts which because it is in the off-season can be very cheap.
 
 
 
