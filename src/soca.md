@@ -5,6 +5,7 @@ Easy to moderate difficultly whitewater around the river Soça and its tributari
 
   * Soča by Manuel Arnu (2005) in German.
   * [Soča river notes](./asset/soca/soca-koritnica-river-notes.pdf)
+  * [Gene17 notes by Simon Westgarth](./asset/soca/gene17.pdf)
 
 When to go
 ----------
