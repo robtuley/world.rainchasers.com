@@ -1,14 +1,14 @@
 British Columbia, Canada
 ========================
 
-A paddling destination where you can squeeze in a lot of high quality runs in a short period of time. The road infrastructure is excellent especially as logging companies have opened tracks to many of the remoter areas and with plenty of moderate to difficult single-day runs.
+A classic creek boating paradise with big mountains, huge snowfall and great rivers which flow long into the summer. The road infrastructure is excellent especially as logging companies have opened tracks to many of the remoter areas and with plenty of moderate to difficult day-runs.
 
-  * todo: add links
+  * [Liquid Lore](http://www.liquidlore.com/bc/bc.html)
 
 When to go
 ----------
 
-?? Summer?
+June to August is ideal; May and September are possible.
 
 How to get there
 ----------------
