@@ -88,10 +88,10 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <li><span data-season=5,6,7,8 data-state=snow>Austria</span></li>
   <!--<li>Bolivia</li>-->
   <!--<li>Brazil</li>-->
-  <li><span title=Canada data-season=6,7,8,9:low data-state=snow>British Columbia</span></li>
+  <li><a href=bc title=Canada data-season=5:maybe,6,7,8,9:low data-state=snow>British Columbia</a></li>
   <li><a href=california title=USA data-season=3,4,5,6,7>California</a></li>
   <li><a href=cevennes title=France data-season=4,5,10,11 data-state=rain>Cévennes</a></li>
-  <li><a href=chile data-season=1,2,3,11:high,12>Chile</a></li>
+  <li><a href=chile data-season=1,2,3,10:high,11:high,12>Chile</a></li>
   <!--<li>Columbia</li>-->
   <li><span data-season=4 data-state=snow>Corsica</span></li>
   <li><span title=Turkey data-season=5,6,7,8 data-state=snow>Coruh</span></li>
@@ -100,7 +100,7 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <!--<li>Ecuador</li>-->
   <!--<li>Galicia</li>-->
   <li><span data-season=5,6,7,8,9,10>Georgia</span></li>
-  <li><a href=greece data-season=4,5 data-state=snow>Greece</a></li>
+  <li><a href=greece data-season=4,5 data-state=rain>Greece</a></li>
   <li><span data-season=7,8>Greenland</span></li>
   <li><span title=France data-season=5,6,7:low,8:low data-state=snow>Haut Alps</span></li>
   <li><span data-season=4,5,6>Iceland</span></li>
@@ -129,10 +129,10 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <li><a href=pyrenees title=Spain/France data-season=4,5 data-state=snow>Pyrénées</a></li>
   <li><span data-season=5,6,7,8,9>Quebec</span></li>
   <li><a href=sayan title=Siberia data-season=7,8 data-state=rain>Sayan</a></li>
-  <li><span data-season=4,5,6,7 data-state=snow>Slovenia</span></li>
+  <li><a href=soca title=Slovenia data-season=4:low,5,6,7:low data-state=snow>Soča</a></li>
   <!--<li>South Africa</li>-->
   <!--<li>Sweden</li>-->
-  <li><span data-season=5,6>Taiwan</span></li>
+  <li><span data-season=5,6 data-state=rain>Taiwan</span></li>
   <li><span data-season=9,10,11>Tajikistan</span></li>
   <li><span data-season=1,2,3,4,5,6,7,8,9,10,11,12 data-state=dam>Uganda</span></li>
   <li><span data-season=1:low,2,3,4,10,11,12:low data-state=rain>UK</span></li>

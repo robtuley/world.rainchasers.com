@@ -10,12 +10,12 @@ Excellent variety of paddling in an area with good travel infrastructure; a popu
 When to go
 ----------
 
-The paddling season is the South American summer from December to March. November is possible but the rivers will be high which will limit your options, and after March the rivers will be too low and the weather cold and wet.
+The paddling season is the South American summer from December to March. Oct/Nov is possible but the rivers will be high which will limit your options, and after March the rivers will be too low and the weather cold and wet.
 
 How to get there
 ----------------
 
-Pucon is the most popular base from which to explore chilean whitewater: alternatievly fly into Santiago and head south. You can hire kayaks from the rafting outfits based around Pucon if you want to fly without your boat, but such kayaks are of variable quality.
+Pucon is the most popular base from which to explore chilean whitewater: alternatively fly into Santiago and head south. You can hire kayaks from the rafting outfits based around Pucon if you want to fly without your boat, but such kayaks are of variable quality.
 
 Transport
 ---------

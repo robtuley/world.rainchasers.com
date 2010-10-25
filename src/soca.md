@@ -10,7 +10,7 @@ Easy to moderate difficultly whitewater around the river Soça and its tributari
 When to go
 ----------
 
-Snow-melt easter season from April to June, with levels still just about high enough in July. 
+Cool spring conditions from Mid-March to April, possible but usually low levels. Ideal season is May/June: warmer days and higher water with the peak runoff of snow melt in late May. Still possible in July & August, hot days but levels will be dropping off. 
 
 How to get there
 ----------------
@@ -25,7 +25,7 @@ You will need your own vehicle, but shuttles are short and easy to hitch/cycle. 
 Accommodation
 -------------
 
-Wild camping would be difficult as this is a popular and busy area, but there is a good campsites at Bovec, and plenty of hotels/apartments along the length of the Soça.
+Wild camping would be difficult as this is a popular and busy area, but there is a good campsites at Bovec and plenty of hotels/apartments along the length of the Soča.
 
 
 

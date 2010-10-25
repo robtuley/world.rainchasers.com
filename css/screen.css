@@ -6,16 +6,8 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'PTSansBold';
-  src: url('../font/PTS75F-webfont.eot');
-  src: local('☺'), url('../font/PTS75F-webfont.woff') format('woff'), url('../font/PTS75F-webfont.ttf') format('truetype'), url('../font/PTS75F-webfont.svg#webfontpfl2y6jq') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
 html, body {
-  font-family: PTSansRegular, sans-serif;
+  font-family: PTSansRegular,sans-serif;
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -23,7 +15,7 @@ html, body {
 }
 
 strong, em {
-    font-family: PTSansBold, sans-serif;
+  font-family: PTSansRegular, sans-serif;
 }
 
 body {
