@@ -4,6 +4,7 @@ Ireland
 Short, low volume flashy rivers: difficult to catch at the right levels, but rewarding when you do.
 
   * Irish Whitewater by Seamus Mac Gearailt, ISBN 0-9528985-0-0
+  * [Irish Whitewater](http://www.irishwhitewater.com)
 
 When to go
 ----------
