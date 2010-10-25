@@ -4,7 +4,7 @@ Costa Rica
 Grade 3 boulder gardens to expedition epics with plenty in-between.
 
   * "Chasing Jaguars- The Complete Guide to Costa Rican White Water" by Lee Eudy (2003), available directly from [Earth Bound Sports](http://www.earthboundsports.com)
-  * [Chris Wheeler's Notes](http://www.ukriversguidebook.co.uk/reports/rumble1.htm)
+  * [Chris Wheeler's Notes](http://www.ukriversguidebook.co.uk/reports/rumble1.htm) ([cached](./asset/costa-rica/chris-wheeler.pdf))
 
 When to go
 ----------
