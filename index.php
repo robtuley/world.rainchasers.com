@@ -101,7 +101,7 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <!--<li>Galicia</li>-->
   <li><span data-season=5,6,7,8,9,10>Georgia</span></li>
   <li><a href=greece data-season=4,5 data-state=snow>Greece</a></li>
-  <li><span data-season=7,8>Greenland</a></li>
+  <li><span data-season=7,8>Greenland</span></li>
   <li><span title=France data-season=5,6,7:low,8:low data-state=snow>Haut Alps</span></li>
   <li><span data-season=4,5,6>Iceland</span></li>
   <li><span data-season=4,5,6>Idaho</span></li>
@@ -139,7 +139,7 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <li><a href=val-sesia title=Italy data-season=4,5 data-state=snow>Val Sesia</a></li>
   <!--<li>Vietnam</li>-->
   <li><span data-season=4,5,6>Washington</span></li>
-  <li><span data-season=9,10,11>Zambezi</a></li>
+  <li><span data-season=9,10,11>Zambezi</span></li>
 </ul>
 </nav>
 <script>
