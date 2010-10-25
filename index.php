@@ -94,8 +94,8 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <li><a href=chile data-season=1,2,3,11:high,12>Chile</a></li>
   <!--<li>Columbia</li>-->
   <li><span data-season=4 data-state=snow>Corsica</span></li>
-  <li><span title=Turkey data-season=5,6,7,8>Coruh</span></li>
-  <li><a href=costa-rica data-season=6,7,8,9,10,11,12>Costa Rica</a></li>
+  <li><span title=Turkey data-season=5,6,7,8 data-state=snow>Coruh</span></li>
+  <li><a href=costa-rica data-season=6,7,8,9,10,11,12 data-state=rain>Costa Rica</a></li>
   <li><span data-season=8,9>Cuba</span></li>
   <!--<li>Ecuador</li>-->
   <!--<li>Galicia</li>-->
@@ -125,10 +125,10 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <!--<li>Papua New Guinea</li>-->
   <li><a href=peru data-season=2:high,3,4,5,6,7,8,9:low data-state=snow>Peru</a></li>
   <li><a href=portugal data-season=1:low,2,3,4:low,11:low,12:low data-state=rain>Portugal</a></li>
-  <li><a href=putorana title=Siberia data-season=7>Putorana</a></li>
+  <li><a href=putorana title=Siberia data-season=7:snow>Putorana</a></li>
   <li><a href=pyrenees title=Spain/France data-season=4,5 data-state=snow>Pyrénées</a></li>
   <li><span data-season=5,6,7,8,9>Quebec</span></li>
-  <li><a href=sayan title=Siberia data-season=7,8>Sayan</a></li>
+  <li><a href=sayan title=Siberia data-season=7,8 data-state=rain>Sayan</a></li>
   <li><span data-season=4,5,6,7 data-state=snow>Slovenia</span></li>
   <!--<li>South Africa</li>-->
   <!--<li>Sweden</li>-->
