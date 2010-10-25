@@ -126,7 +126,9 @@ table thead th.first { background: white; }
 
 table td {
   vertical-align: middle;
-  width: 6%;
+  width:6%;
+  min-width:35px;
+  min-height:35px;
   border-left: 1px solid #dedede;
 }
 
@@ -145,7 +147,61 @@ table tr.odd {
   background: #f6f6f6;
 }
 
-table td.in-season {
+table td.possible, dl.season-key dt {
   text-indent:-9999px;
-  background-color: #9999ff;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
+table td.possible, dl.season-key dt.possible {
+  background-color: #5ebc41;
+}
+table td.rain, dt.rain {
+  background-image: url('../asset/weather/rain.png');
+}
+table td.snow, dt.snow {
+  background-image: url('../asset/weather/snow.png');
+}
+table td.dam, dt.dam {
+  background-image: url('../asset/weather/dam.png');
+}
+table td.low,table td.high,table td.maybe, dt.maybe {
+  background-color: #ebba09;
+}
+table td.high, dt.high {
+  background-image: url('../asset/weather/high.png');
+}
+table td.low, dt.low {
+  background-image: url('../asset/weather/low.png');
+}
+dl.season-key dt {
+  width:35px;
+  height:35px;
+  float:left;
+  clear: left;
+  margin:0;
+  padding:0;
+}
+dl.season-key dd {
+  float: left;
+  line-height: 35px;
+  margin:0;
+  padding:0 0 0 10px;
+}
+
+/* clearfix hack */
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+

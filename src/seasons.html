@@ -1,8 +1,24 @@
 <h1>Whitewater Kayaking Seasons</h1>
 
 <p>nextsw.im helps you find your next kayaking adventure with concise summaries of
-   world kayaking destinations and seasons. Some info is based on my own experience, 
-   most is rumours and heresay, some is (educated) guesswork: take it all with a pitch of salt.</p>
+   world kayaking destinations and seasons.</p>
+
+<dl class=season-key>
+  <dt class=possible>ideal</dt>
+  <dd>ideal time of year to paddle</dd>
+  <dt class=maybe>possible</dt>
+  <dd>paddling possible, but only on some runs due to too low/high levels</dd>
+  <dt class=rain>rain</dt>
+  <dd>rain-fed, levels unpredictable.</dd>
+  <dt class=snow>snow</dt>
+  <dd>snow-fed, reliable levels.</dd>
+  <dt class=dam>dam</dt>
+  <dd>dam controlled flow, almost guaranteed levels.</dd>
+  <dt class=low>low</dt>
+  <dd>levels likely to be lower then ideal.</dd>
+  <dt class=high>high</dt>
+  <dd>levels likely to be higher than ideal.</dd>
+</dl>
 
 <script>
 $(function(){
@@ -35,20 +51,36 @@ $(function(){
     var $el = $(this).clone();
     var seasons = $el.attr('data-season').split(',');
     var key = '';
+    var dstate = $el.attr('data-state');
+    var states = [];
     for (var i in seasons){
-      key = key+parseInt(seasons[i]).toString(13);
-      // ^ construct base13 string to make sure can alphabetically sort
+      states[i] = dstate;
+      var tmp = seasons[i].split(':');
+      if (tmp.length>1){ // state attached like ...,3:rain,..
+        states[i] = tmp.pop();
+        seasons[i] = tmp.pop();
+      }
+      if (states[i]!='low' && states[i]!='high' && states[i]!='maybe'){
+        key = key+parseInt(seasons[i]).toString(13);
+        // ^ construct base13 string to make sure can alphabetically sort
+      }
     }
     var title = $el.text();
     if ($el.attr('title')) title = title+' ('+$el.attr('title')+')';
     $el.text(title).removeAttr('data-season').removeAttr('title');
     var r = $('<tr></tr>').append($('<th class=first></th>').append($el)).attr('data-key',key);
     for (var i in months) {
-      if ($.inArray(i,seasons)>=0) {
-        r.append($('<td></td>').addClass('in-season').text('x'));
-      } else {
-        r.append($('<td></td>'));
+      var cell = $('<td></td>');
+      var j = $.inArray(i,seasons);
+      if (j>=0) { // some data
+        cell.addClass('possible');
+        if (states[j]){
+          cell.addClass(states[j]).text(states[j]);
+        } else {
+          cell.text('ideal');
+        }
       }
+      r.append(cell);
     }
     rows.push(r);
   });
@@ -65,7 +97,7 @@ $(function(){
   for (var i in rows){
     $tbody.append(rows[i]);
   }
-  $('article').append($table.append($tbody));
+  $('article > p').after($table.append($tbody));
 
   // enable floating header
   $table.floatHeader();
