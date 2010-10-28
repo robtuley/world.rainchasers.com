@@ -22,6 +22,7 @@ if ($src) {
         require_once __DIR__.'/lib/markdown.php';
         $content = Markdown(file_get_contents($path));
         $fb_title = implode(' ',array_map('ucfirst',explode('-',$src)));
+        if (strlen($fb_title)<3) $fb_title = strtoupper($fb_title);
         $title = 'Kayaking in '.$fb_title;
         $fb_type = 'state_province';
     } else {
@@ -93,7 +94,7 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <li><a href=cevennes title=France data-season=4,5,10,11 data-state=rain>Cévennes</a></li>
   <li><a href=chile data-season=1,2,3,10:high,11:high,12>Chile</a></li>
   <!--<li>Columbia</li>-->
-  <li><span data-season=4 data-state=snow>Corsica</span></li>
+  <li><a href=corsica data-season=4 data-state=snow>Corsica</a></li>
   <li><span title=Turkey data-season=5,6,7,8 data-state=snow>Coruh</span></li>
   <li><a href=costa-rica data-season=6,7,8,9,10,11,12 data-state=rain>Costa Rica</a></li>
   <li><span data-season=8,9>Cuba</span></li>
@@ -135,7 +136,7 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <li><span data-season=5,6 data-state=rain>Taiwan</span></li>
   <li><span data-season=9,10,11>Tajikistan</span></li>
   <li><span data-season=1,2,3,4,5,6,7,8,9,10,11,12 data-state=dam>Uganda</span></li>
-  <li><span data-season=1:low,2,3,4,10,11,12:low data-state=rain>UK</span></li>
+  <li><a href=uk data-season=1:low,2,3,4,10,11,12:low data-state=rain>UK</a></li>
   <li><a href=val-sesia title=Italy data-season=4,5 data-state=snow>Val Sesia</a></li>
   <!--<li>Vietnam</li>-->
   <li><span data-season=4,5,6>Washington</span></li>
