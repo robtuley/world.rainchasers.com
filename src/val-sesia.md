@@ -4,7 +4,7 @@ Val Sesia, Piemonte (Northern Italy)
 Excellent low volume steep bedrock creek boating, some of the best in Europe. Easy road access to short single-day runs with reliable waterlevels in the area's brief season.
 
   * A map of the rivers in the Sesia valley and nearby (the "Carte Fluvial") is available at local tourism offices or the campsite at Campertogno ([scanned copy](./asset/val-sesia/turismo-mappa-del-fiume-sesia.pdf)).
-  * Pete Cornes wrote a [mini-guide for Plughole magazine](./asset/val-sesia/piemonte-plughole.pdf).
+  * Pete Cornes wrote a [mini-guide for Plughole magazine](./asset/val-sesia/plughole-piemonte.pdf).
 
 When to go
 ----------
