@@ -98,7 +98,7 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <li><span title=Turkey data-season=5,6,7,8 data-state=snow>Coruh</span></li>
   <li><a href=costa-rica data-season=6,7,8,9,10,11,12 data-state=rain>Costa Rica</a></li>
   <li><span data-season=8,9>Cuba</span></li>
-  <!--<li>Ecuador</li>-->
+  <li><span data-season=1,2,3,11,12 data-state=rain>Ecuador</span></li>
   <!--<li>Galicia</li>-->
   <li><span data-season=5,6,7,8,9,10>Georgia</span></li>
   <li><a href=greece data-season=4,5 data-state=rain>Greece</a></li>
