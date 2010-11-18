@@ -1,5 +1,5 @@
-Kayaking in XXXX
-================
+Kayaking in Madagascar
+======================
 
 An unusual destination with tricky logistics.
 
