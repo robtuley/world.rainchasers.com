@@ -114,7 +114,7 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <li><a href=kyrgyzstan data-season=6,7,8,9:low data-state=snow>Kyrgyzstan</a></li>
   <!--<li>Kurdistan</li>-->
   <li><span title=India data-season=8:snow,9:low>Ladakh</span></li>
-  <!--<li>Madagascar</li>-->
+  <li><a href=madagascar data-season=1:maybe,2:maybe,3:maybe,4,5 data-state=rain>Madagascar</a></li>
   <li><span data-season=1,2,3,11,12>Mexico</span></li>
   <li><span data-season=6,7>Mongolia</span></li>
   <li><a href=montenegro data-season=5,6 data-state=snow>Montenegro</a></li>
@@ -130,6 +130,7 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <li><a href=putorana title=Siberia data-season=7:snow>Putorana</a></li>
   <li><a href=pyrenees title=Spain/France data-season=4,5 data-state=snow>Pyrénées</a></li>
   <li><span data-season=5,6,7,8,9>Quebec</span></li>
+  <li><span title=Australia data-season=1:maybe,2,3,4:low>Queensland</span></li>
   <li><a href=sayan title=Siberia data-season=7,8 data-state=rain>Sayan</a></li>
   <li><a href=soca title=Slovenia data-season=4:low,5,6,7:low data-state=snow>Soča</a></li>
   <!--<li>South Africa</li>-->
