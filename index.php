@@ -58,8 +58,8 @@ $fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
   <meta property=fb:app_id content=159877897376773> 
   <meta property=og:site_name content=nextsw.im>
 <?php if ($fb_type=='website') : ?>
-  <meta property="og:description"
-        content="Concise summaries of world kayaking destinations and seasons."/>
+  <meta property=og:description
+        content="Concise summaries of world kayaking destinations and seasons.">
 <?php endif; ?>
   <link rel=stylesheet media=screen,projection href=css/screen.css>
   <link rel=stylesheet media=print href=css/print.css>

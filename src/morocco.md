@@ -7,6 +7,7 @@ Good variety of easy to moderate difficulty runs from single to multi-day in the
   * [ICCC trip notes from 2009](http://www.union.ic.ac.uk/rcc/canoe/mediawiki/Morocco_River_Guides) ([cached](./asset/morocco/iccc-2009.pdf))
   * [The Poly Trip Notes](http://www.thepoly.co.uk/tripreports/morocco.html) ([cached](./asset/morocco/poly-2004.pdf))
   * [Mark Rainsley notes from 2007](http://www.ukriversguidebook.co.uk/forum/viewtopic.php?f=3&t=21109) ([cached](./asset/morocco/mark-rainsley-2007.pdf))
+  * [EauxVives Guides](http://www.eauxvives.org/en/regions/voir/pays:Maroc)
 
 When to go
 ----------
