@@ -5,7 +5,7 @@ Excellent multi-day paddling. The river character is siphon-y: rapids are usuall
 
   * [Peru Whitewater](http://www.peruwhitewater.com) by Kurt Casey is the bible of Peruvian paddling.
   * [Tom Hugh's take on Peru](http://www.bluedome.co.uk/WaterSports/wateperu.html)
-  * [Rob Tuley trip notes from 2003](http://openknot.com/kayak/peru/)
+  * [Rob Tuley trip notes from 2003](./asset/peru/rob-tuley.html)
 
 When to go
 ----------
