@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5 {
 }
 
 h1 {
-  background: url('../asset/logo.png') center right no-repeat;
+  background: url('../img/logo.png') center right no-repeat;
   padding-top: 10px;
   min-height:50px;
 }
@@ -148,22 +148,22 @@ table td.possible, dl.season-key dt.possible {
   background-color: #5ebc41;
 }
 table td.rain, dt.rain {
-  background-image: url('../asset/weather/rain.png');
+  background-image: url('../img/weather/rain.png');
 }
 table td.snow, dt.snow {
-  background-image: url('../asset/weather/snow.png');
+  background-image: url('../img/weather/snow.png');
 }
 table td.dam, dt.dam {
-  background-image: url('../asset/weather/dam.png');
+  background-image: url('../img/weather/dam.png');
 }
 table td.low,table td.high,table td.maybe, dt.maybe {
   background-color: #ebba09;
 }
 table td.high, dt.high {
-  background-image: url('../asset/weather/high.png');
+  background-image: url('../img/weather/high.png');
 }
 table td.low, dt.low {
-  background-image: url('../asset/weather/low.png');
+  background-image: url('../img/weather/low.png');
 }
 dl.season-key dt {
   width:35px;

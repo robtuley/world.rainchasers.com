@@ -42,7 +42,7 @@ if ($src) {
   $path = __DIR__.'/fb/'.$src.'.png';
   if (file_exists($path)) $fb_img = '/'.$src; // custom image 
 }
-$fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/fb'.$fb_img.'.png';
+$fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/img/fb'.$fb_img.'.png';
 ?>
 <!DOCTYPE html>
 <html lang=en xmlns=http://www.w3.org/1999/xhtml
