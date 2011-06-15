@@ -4,6 +4,7 @@
  *  FB-APP-ID 159877897376773
  *  FB-APP-SECRET f5f89f1471b8aa64bdb3392a67f31cb9
  */
+define('DOMAIN','nextsw.im');
 header('Content-type: text/html; charset=utf-8');
 header('X-Frame-Options: DENY');
 $escape = function($val) {
@@ -28,7 +29,7 @@ if ($src) {
     } else {
         // 404, file does not exist
         header($_SERVER['SERVER_PROTOCOL'].' 404 Not Found');
-        echo file_get_contents(__DIR__.'/src/404.html');
+        echo file_get_contents(__DIR__.'/404.html');
         exit;
     }
 } else {
@@ -36,13 +37,13 @@ if ($src) {
     $title = $fb_title = 'Kayaking Seasons';
     $fb_type = 'website';
 }
-$fb_url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+$fb_url = 'http://'.DOMAIN.'/'.$src;
 $fb_img = '/website'; // default to standard image
 if ($src) {
   $path = __DIR__.'/fb/'.$src.'.png';
   if (file_exists($path)) $fb_img = '/'.$src; // custom image 
 }
-$fb_img = 'http://'.$_SERVER['HTTP_HOST'].'/img/fb'.$fb_img.'.png';
+$fb_img = 'http://'.DOMAIN.'/img/fb'.$fb_img.'.png';
 ?>
 <!DOCTYPE html>
 <html lang=en xmlns=http://www.w3.org/1999/xhtml
