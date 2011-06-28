@@ -46,7 +46,8 @@ if ($src) {
 $fb_img = 'http://'.DOMAIN.'/img/fb'.$fb_img.'.png';
 ?>
 <!DOCTYPE html>
-<html lang=en xmlns=http://www.w3.org/1999/xhtml
+<html lang=en manifest=manifest.appcache
+      xmlns=http://www.w3.org/1999/xhtml
       xmlns:og=http://opengraphprotocol.org/schema/
       xmlns:fb=http://www.facebook.com/2008/fbml>
 <head>
