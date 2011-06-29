@@ -4,9 +4,8 @@
  *  FB-APP-ID 159877897376773
  *  FB-APP-SECRET f5f89f1471b8aa64bdb3392a67f31cb9
  */
-define('DOMAIN','nextsw.im');
+define('DOMAIN','world.tadpolar.com');
 header('Content-type: text/html; charset=utf-8');
-header('X-Frame-Options: DENY');
 $escape = function($val) {
     return htmlentities($val,ENT_COMPAT,'UTF-8');
 };
