@@ -148,7 +148,7 @@ $(function(){ $('nav li:not(:has(a))').hide(); });
 <div id=fb-root></div>
 <script>
 window.fbAsyncInit = function() {
-  FB.init({appId: '159877897376773', status: true, cookie: true,
+  FB.init({appId: '146383528723513', status: true, cookie: true,
            xfbml: true});
 };
 (function() {
