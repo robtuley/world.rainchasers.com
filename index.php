@@ -1,9 +1,4 @@
 <?php
-/**
- * nextsw.im front controller.
- *  FB-APP-ID 159877897376773
- *  FB-APP-SECRET f5f89f1471b8aa64bdb3392a67f31cb9
- */
 define('DOMAIN','world.tadpolar.com');
 header('Content-type: text/html; charset=utf-8');
 $escape = function($val) {
@@ -56,8 +51,8 @@ $fb_img = 'http://'.DOMAIN.'/img/fb'.$fb_img.'.png';
   <meta property=og:type content="<?php echo $escape($fb_type); ?>"> 
   <meta property=og:url content=<?php echo $escape($fb_url); ?>> 
   <meta property=og:image content=<?php echo $escape($fb_img); ?>> 
-  <meta property=fb:app_id content=159877897376773> 
-  <meta property=og:site_name content=nextsw.im>
+  <meta property=fb:app_id content=146383528723513> 
+  <meta property=og:site_name content="Tadpolar Global">
 <?php if ($fb_type=='website') : ?>
   <meta property=og:description
         content="Concise summaries of world kayaking destinations and seasons.">
