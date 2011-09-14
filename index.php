@@ -1,5 +1,5 @@
 <?php
-define('DOMAIN','world.tadpolar.com');
+define('DOMAIN','world.rainchasers.com');
 header('Content-type: text/html; charset=utf-8');
 $escape = function($val) {
     return htmlentities($val,ENT_COMPAT,'UTF-8');
@@ -51,8 +51,8 @@ $fb_img = 'http://'.DOMAIN.'/img/fb'.$fb_img.'.png';
   <meta property=og:type content="<?php echo $escape($fb_type); ?>"> 
   <meta property=og:url content=<?php echo $escape($fb_url); ?>> 
   <meta property=og:image content=<?php echo $escape($fb_img); ?>> 
-  <meta property=fb:app_id content=146383528723513> 
-  <meta property=og:site_name content="Tadpolar Global">
+  <meta property=fb:app_id content=214254015300505>
+  <meta property=og:site_name content="world.rainchasers.com">
 <?php if ($fb_type=='website') : ?>
   <meta property=og:description
         content="Concise summaries of world kayaking destinations and seasons.">
