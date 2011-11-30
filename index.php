@@ -100,7 +100,7 @@ $fb_img = 'http://'.DOMAIN.'/img/fb'.$fb_img.'.png';
   <li><a href=greece data-season=4,5 data-state=rain>Greece</a></li>
   <li><span data-season=7,8>Greenland</span></li>
   <li><span title=France data-season=5,6,7:low,8:low data-state=snow>Haut Alps</span></li>
-  <li><span data-season=4,5,6>Iceland</span></li>
+  <li><a href=iceland data-season=5,6,7,8,9>Iceland</a></li>
   <li><span data-season=4,5,6>Idaho</span></li>
   <li><span data-season=5,6>Iran</span></li>
   <li><a href=ireland data-season=1:low,2,3,4,10,11,12:low data-state=rain>Ireland</a></li>
