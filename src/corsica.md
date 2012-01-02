@@ -5,6 +5,7 @@ Excellent low-volume steep creeking, but with a short season that can be difficu
 
   * [Simon Dawson's notes](http://www.simondawson.com/crsindx.htm) ([cached](./asset/corsica/simon-dawson.pdf))
   * Carte Corse Korsika, available from [Canotier](http://canotier.com/)
+  * [KayakSession Video Guide](http://www.kayaksession.com/kayak-videoguide-corsica.php)
 
 When to go
 ----------
