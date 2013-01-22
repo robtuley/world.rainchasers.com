@@ -111,7 +111,7 @@ $fb_img = 'http://'.DOMAIN.'/img/fb'.$fb_img.'.png';
   <!--<li>Kurdistan</li>-->
   <li><span title=India data-season=8:snow,9:low>Ladakh</span></li>
   <li><a href=madagascar data-season=1:maybe,2:maybe,3:maybe,4,5 data-state=rain>Madagascar</a></li>
-  <li><span data-season=1,2,3,11,12>Mexico</span></li>
+  <li><a href=mexico data-season=1,2,3,11,12>Mexico</a></li>
   <li><span data-season=6,7>Mongolia</span></li>
   <li><a href=montenegro data-season=5,6 data-state=snow>Montenegro</a></li>
   <li><a href=morocco data-season=4,5 data-state=snow>Morocco</a></li>
