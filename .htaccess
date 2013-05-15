@@ -1,7 +1,0 @@
-Options FollowSymLinks
-RewriteEngine on
-
-RewriteCond %{REQUEST_FILENAME}  -f
-RewriteRule  ^.*$  -  [L]
-
-RewriteRule ^[a-z-]+$  index.php?src=$0 [L]

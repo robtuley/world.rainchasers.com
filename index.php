@@ -40,7 +40,7 @@ if ($src) {
 $fb_img = 'http://'.DOMAIN.'/img/fb'.$fb_img.'.png';
 ?>
 <!DOCTYPE html>
-<html lang=en manifest=manifest.appcache
+<html lang=en
       xmlns=http://www.w3.org/1999/xhtml
       xmlns:og=http://opengraphprotocol.org/schema/
       xmlns:fb=http://www.facebook.com/2008/fbml>
@@ -69,10 +69,6 @@ $fb_img = 'http://'.DOMAIN.'/img/fb'.$fb_img.'.png';
 <article class=clearfix>
 <?php echo $content; ?>
 </article>
-
-<aside>
-<fb:comments width=750></fb:comments>
-</aside>
 
 <nav>
 <fb:like layout=button_count width=160></fb:like>
@@ -143,22 +139,6 @@ $fb_img = 'http://'.DOMAIN.'/img/fb'.$fb_img.'.png';
 </nav>
 <script>
 $(function(){ $('nav li:not(:has(a))').hide(); });
-</script>
-
-<div id=fb-root></div>
-<script>
-window.fbAsyncInit = function() {
-  FB.init({appId: '214254015300505', status: true, cookie: true,
-           xfbml: true});
-};
-(function() {
-  var e = document.createElement('script');
-  e.type = 'text/javascript';
-  e.src = document.location.protocol +
-       '//connect.facebook.net/en_GB/all.js';
-  e.async = true;
-  document.getElementById('fb-root').appendChild(e);
-}());
 </script>
 
 </body>
