@@ -19,6 +19,7 @@ if ($src) {
         $fb_title = implode(' ',array_map('ucfirst',explode('-',$src)));
         if (strlen($fb_title)<3) $fb_title = strtoupper($fb_title);
         $title = 'Kayaking in '.$fb_title;
+        $desc = 'Summary of '.$fb_title.' kayaking and rafting season, potential and further resources.';
         $fb_type = 'state_province';
     } else {
         // 404, file does not exist
@@ -29,6 +30,7 @@ if ($src) {
 } else {
     $content = file_get_contents(__DIR__.'/src/seasons.html');
     $title = $fb_title = 'Kayaking Seasons';
+    $desc = 'Concise summaries of world kayaking destinations and seasons.';
     $fb_type = 'website';
 }
 $fb_url = 'http://'.DOMAIN.'/'.$src;
@@ -53,10 +55,10 @@ $fb_img = 'http://'.DOMAIN.'/img/fb'.$fb_img.'.png';
   <meta property=og:image content=<?php echo $escape($fb_img); ?>> 
   <meta property=fb:app_id content=214254015300505>
   <meta property=og:site_name content="world.rainchasers.com">
-<?php if ($fb_type=='website') : ?>
   <meta property=og:description
-        content="Concise summaries of world kayaking destinations and seasons.">
-<?php endif; ?>
+        content="<?php echo $escape($desc); ?>">
+  <meta property=description
+        content="<?php echo $escape($desc); ?>">
   <link rel=stylesheet media=screen,projection href=css/screen.css>
   <link rel=stylesheet media=print href=css/print.css>
   <script src=js/jquery.js></script>
