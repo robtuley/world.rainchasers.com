@@ -1,13 +1,5 @@
-@font-face {
-  font-family: 'PTSansRegular';
-  src: url('../font/PTS55F-webfont.eot');
-  src: local('☺'), url('../font/PTS55F-webfont.woff') format('woff'), url('../font/PTS55F-webfont.ttf') format('truetype'), url('../font/PTS55F-webfont.svg#webfontmBFaK3EM') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
 html, body {
-  font-family: PTSansRegular,sans-serif;
+  font-family: Arial,Helvetica,sans-serif;;
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -15,12 +7,12 @@ html, body {
 }
 
 strong, em {
-  font-family: PTSansRegular, sans-serif;
+  font-weight: bold;
 }
 
 body {
   margin: 10px;
-  width: 980px;
+  max-width: 980px;
 }
 
 pre {
@@ -30,12 +22,21 @@ pre {
   background-color: #F0F0F0;
 }
 
-nav {
-  width: 160px;
-  position: absolute;
-  top:10px;
-  left:10px;
+article, aside {
   display: block;
+  float: right;
+  width: 73%;
+}
+
+nav {
+  width: 25%;
+  float: left;
+  display: block;
+  border-right: 1px solid gray;
+}
+
+@media all and (max-width:600px) {
+ nav,article,aside { float:none; width:100%; border-right:none; }
 }
 
 nav ul {
@@ -61,14 +62,6 @@ a:link, a:visited {
 
 a:active, a:focus, a:hover {
   text-decoration: underline;
-}
-
-article, aside {
-  display: block;
-  width: 779px;
-  margin-left:160px;
-  border-left: 1px solid gray;
-  padding: 10px;
 }
 
 article {

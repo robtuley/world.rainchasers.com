@@ -73,7 +73,8 @@ $fb_img = 'http://'.DOMAIN.'/img/fb'.$fb_img.'.png';
 <nav>
 <fb:like layout=button_count width=160></fb:like>
 <ul>
-  <li class=first><a href=./>Season Chart</a></li>
+  <li><a href=./>Season Chart</a></li>
+  <li class=first><a href="//rainchasers.com">&lsaquo; Rainchasers UK</a></li>
 
   <li><span data-season=6,7>Alaska</span></li>
   <li><a href=altai title=Siberia data-season=6:high,7,8 data-state=rain>Altai</a></li>
