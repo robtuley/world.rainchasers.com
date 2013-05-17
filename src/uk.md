@@ -3,10 +3,10 @@ England, Wales and Scotland
 
 Variety of low volume rain-fed runs: good paddling if you can catch the levels.
 
+  * [Rainchasers](http://rainchasers.com)
   * [UK Rivers Guidebook](http://www.ukriversguidebook.co.uk)
   * [Wheres the Water](http://www.wheresthewater.com), Scottish telemetry information.
   * [Welsh Rivers from the WCA](http://www.canoewales.com/paddling-in-wales-rivers.aspx)
-  * [Rainchasers](http://rainchasers.com)
   * [Welsh Rivers](http://www.amazon.co.uk/gp/product/095161472X?ie=UTF8&tag=nextswim-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=095161472X) by Chris Sladden, ISBN 978-0951614723. Definitive guide to welsh boating, with rumours of an updated edition coming for xmas 2010.
   * [Scottish Whitewater](http://www.amazon.co.uk/gp/product/0954706110?ie=UTF8&tag=nextswim-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0954706110) by the SCA, ISBN 978-0954706111
   * [English Whitewater](http://www.amazon.co.uk/gp/product/0953195678?ie=UTF8&tag=nextswim-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0953195678) from the BCU, ISBN 978-0953195671
