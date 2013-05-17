@@ -38,8 +38,10 @@ $fb_img = 'http://'.DOMAIN.'/img/fb'.$fb_img.'.png';
 <!DOCTYPE html>
 <html lang=en>
 <head>
-  <title><?php echo $escape($title); ?></title>
   <meta charset=utf-8>
+  <title><?php echo $escape($title); ?></title>
+  <meta name=viewport content="width=device-width,initial-scale=1.0">
+  
   <meta property=og:title content="<?php echo $escape($fb_title); ?>"> 
   <meta property=og:type content="<?php echo $escape($fb_type); ?>"> 
   <meta property=og:url content=<?php echo $escape($fb_url); ?>> 
