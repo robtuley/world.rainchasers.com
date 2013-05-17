@@ -1,0 +1,9 @@
+#!/bin/bash
+urls=$(ls ./src/ | grep .md | grep -v _template | sed s/.md//)
+
+for fn in $urls
+do
+ echo "Writing $fn.html"
+ ./export.php $fn > ./static/$fn.html
+done
+./export.php > ./static/index.html

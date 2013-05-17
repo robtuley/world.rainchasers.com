@@ -1,37 +1,31 @@
+#!/usr/bin/php -q
 <?php
 define('DOMAIN','world.rainchasers.com');
-header('Content-type: text/html; charset=utf-8');
 $escape = function($val) {
     return htmlentities($val,ENT_COMPAT,'UTF-8');
 };
-
-$src = isset($_GET['src']) ? $_GET['src'] : null;
-if ($src) {
-    // for src to be valid, it must only consist of a-z or dash, and it must
-    // relate to a file on the filesystem.
-    $path = null;
-    if (preg_match('/^[a-z-]+$/',$src)) {
-        $path = __DIR__.'/src/'.$src.'.md';
-    }
-    if ($path && file_exists($path)) {
-        require_once __DIR__.'/lib/markdown.php';
-        $content = Markdown(file_get_contents($path));
-        $fb_title = implode(' ',array_map('ucfirst',explode('-',$src)));
-        if (strlen($fb_title)<3) $fb_title = strtoupper($fb_title);
-        $title = 'Kayaking in '.$fb_title;
-        $desc = 'Summary of '.$fb_title.' kayaking and rafting season, potential and further resources.';
-        $fb_type = 'state_province';
-    } else {
-        // 404, file does not exist
-        header($_SERVER['SERVER_PROTOCOL'].' 404 Not Found');
-        echo file_get_contents(__DIR__.'/404.html');
-        exit;
-    }
-} else {
+$src = trim(isset($_SERVER['argv'][1]) ? $_SERVER['argv'][1] : '');
+if (!$src) { // home page
     $content = file_get_contents(__DIR__.'/src/seasons.html');
     $title = $fb_title = 'Kayaking Seasons';
     $desc = 'Concise summaries of world kayaking destinations and seasons.';
     $fb_type = 'website';
+} elseif (!preg_match('/^[a-z-]+$/',$src)) {
+    fwrite(STDERR,"Export src must be A-Z-; provided $src\n");
+    exit(1);
+} else {
+    $path = __DIR__.'/src/'.$src.'.md';
+    if (!file_exists($path)) {
+        fwrite(STDERR,"File $path does not exist\n");
+        exit(2);
+    }
+    require_once __DIR__.'/lib/markdown.php';
+    $content = Markdown(file_get_contents($path));
+    $fb_title = implode(' ',array_map('ucfirst',explode('-',$src)));
+    if (strlen($fb_title)<3) $fb_title = strtoupper($fb_title);
+    $title = 'Kayaking in '.$fb_title;
+    $desc = 'Summary of '.$fb_title.' kayaking and rafting season, potential and further resources.';
+    $fb_type = 'state_province';
 }
 $fb_url = 'http://'.DOMAIN.'/'.$src;
 $fb_img = '/website'; // default to standard image
