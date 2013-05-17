@@ -67,7 +67,6 @@ $fb_img = 'http://'.DOMAIN.'/img/fb'.$fb_img.'.png';
 </article>
 
 <nav>
-<fb:like layout=button_count width=160></fb:like>
 <ul>
   <li><a href=./>Season Chart</a></li>
   <li class=first><a href="//rainchasers.com">&lsaquo; Rainchasers UK</a></li>
