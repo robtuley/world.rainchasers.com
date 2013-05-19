@@ -1,4 +1,5 @@
 #!/bin/bash
+rm ./static/*.html
 urls=$(ls ./src/ | grep .md | grep -v _template | sed s/.md//)
 
 for fn in $urls
@@ -7,3 +8,5 @@ do
  ./export.php $fn > ./static/$fn.html
 done
 ./export.php > ./static/index.html
+
+# s3cmd sync --guess-mime-type --mime-type=text/html --acl-public --delete-removed --bucket-location=EU static/ s3://world.rainchasers.com/
