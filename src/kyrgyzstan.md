@@ -3,7 +3,7 @@ Kyrgyzstan (Tien-Shan)
 
 Good variety of paddling with reasonable road access in most areas. Rivers range from steep low volume single-day creeks to medium-volume short multi-day runs.
 
-  * [BUKE Expedition 2005](http://kayakstan.net)
+  * [BUKE Expedition 2005](http://kayakstan.rob.cx)
   * [Russian Kayaking Guide](http://www.kayaking.su/en/rivers/tienshan/)
   * Vladimir Gavrilov has written a good rafting orientated guidebook (in English) to the rivers of central Asia, titled [Rivers of an Unknown Land](http://www.amazon.co.uk/gp/product/0967757037?ie=UTF8&tag=nextswim-21&linkCode=as2&camp=1634&creative=6738&creativeASIN=0967757037) ISBN 978-0967757032. This includes some larger volume runs in Kyrgzstan (e.g. Naryn).
 
