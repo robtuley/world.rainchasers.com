@@ -4,6 +4,7 @@ Peru
 Excellent multi-day paddling. The river character is siphon-y: rapids are usually formed by boulders falling into the river or being washed downstream by floods. As a result the rivers change character frequently, usually from year to year and it is advisable to seek up-to-date local knowledge where possible from the various rafting outfits.
 
   * [Peru Whitewater](http://www.peruwhitewater.com) by Kurt Casey is the bible of Peruvian paddling.
+  * [IC 2012 trip report](./asset/peru/ic-2012.pdf)
   * [Tom Hugh's take on Peru](http://www.bluedome.co.uk/WaterSports/wateperu.html)
   * [Rob Tuley trip notes from 2003](./asset/peru/rob-tuley.html)
 
